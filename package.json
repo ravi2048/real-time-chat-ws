@@ -1,5 +1,21 @@
 {
+  "name": "real-time-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "devDependencies": {
+    "@types/websocket": "^1.0.10",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "websocket": "^1.0.35",
+    "zod": "^3.23.8"
   }
 }
